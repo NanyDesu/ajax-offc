@@ -1,0 +1,55 @@
+label{
+    display: block;
+    border: none;
+
+    background:transparent;
+    outline: none;
+    color:rgb(95, 95, 95);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+#cadUsuario input:hover {
+    cursor: pointer;
+    background:#7db4ad;
+    transition: 0.2s;
+}
+#salvar{
+    float: right;
+    width: 100px;
+    height: 50px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid black;
+}
+  .window{
+    display:none;
+    width:200px;
+    height:300px;
+    position:absolute;
+    left:0;
+    top:0;
+    background:rgb(255, 255, 255);
+    z-index:9900;
+    padding:10px;
+    border-radius:10px;
+  }
+  #mascara{
+    display:none;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:9000;
+    background-color:#000;
+  }
+  .fechar{
+    display:block; 
+    font-size: large;
+    color: red;
+    text-align:right;
+}
+  
